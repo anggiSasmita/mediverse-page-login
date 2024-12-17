@@ -40,7 +40,7 @@ const App: React.FC = () => {
       setError('Gagal masuk: ' + error.message);
     } else {
       setError(null);
-      alert('Login berhasil! Selamat datang, Anggi');
+      alert('Login berhasil! Selamat datang, Anggita');
       navigate('/Dashboard'); // Redirect ke dashboard setelah login 
     }
   };
